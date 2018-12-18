@@ -1,0 +1,27 @@
+Rails:
+  Enabled: true
+
+AllCops:
+  TargetRubyVersion: 2.5.3
+  Exclude:
+    - vendor/bundle/**/*
+    - bin/*
+    - db/**/*
+    - Gemfile
+
+Style/FrozenStringLiteralComment:
+  Enabled: false
+
+Style/Documentation:
+  Enabled: false
+
+Layout/AlignHash:
+  Exclude:
+    - config/application.rb
+
+Layout/AlignParameters:
+  Exclude:
+    - config/application.rb
+
+LineLength:
+  Max: 100
