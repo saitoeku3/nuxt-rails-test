@@ -16,8 +16,6 @@ gem 'puma', '~> 3.11'
 group :development, :test do
   gem 'byebug', platforms: [:mri, :mingw, :x64_mingw]
   gem 'factory_bot_rails', '~> 4.11.1'
-  gem 'hirb'
-  # gem 'hirb-unicode'
   gem 'pry-byebug'
   gem 'pry-rails'
   gem 'pry-doc'
